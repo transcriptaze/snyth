@@ -1,0 +1,9 @@
+[submodule "snyth-js"]
+	path = snyth-js
+	url = https://github.com/transcriptaze/snyth-js.git
+[submodule "snyth-pd"]
+	path = snyth-pd
+	url = https://github.com/transcriptaze/snyth-pd.git
+[submodule "snyth-supercollider"]
+	path = snyth-supercollider
+	url = https://github.com/transcriptaze/snyth-supercollider.git
