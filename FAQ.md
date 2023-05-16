@@ -15,6 +15,6 @@
 
 3. **But does it djent?**
 
-   Nope.
+   Nope. Not even a little bit.
 
    

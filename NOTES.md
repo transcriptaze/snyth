@@ -1,18 +1,18 @@
 # NOTES
 
-The current implementation is very much a proof of concept/work in progress and there is an absolute **ton** of 
-optimization that needs to happen but there is just one of me. Also quite a lot of it was coded around 3AM so 
-don't be surprised if you find weird stuff that makes no sense.
+The current implementation is very much a proof of concept/work in progress and there is an absolute **ton**
+of optimization that needs to happen but there is just one of me. Also quite a lot of it was coded around 3AM
+so there is weird stuff that only makes sense at that time of the day.
 
 ## Browsers
 
-_snyth_ (the _snyth_ ?) has only really been extensively tested on Chrome on an **ancient** Macbook Pro. For
-other browsers and operating systems, YMMV:
+_snyth_ (the _snyth_ ?) has only really been extensively tested on Chrome on an **ancient** and **decrepit**
+Macbook Pro. For other browsers and operating systems, YMMV:
 
 | Browser | OS    | Notes                                                                               |
 |---------|-------|-------------------------------------------------------------------------------------|
 | Chrome  | MacOS | Ok                                                                                  |
-| Opera   | MacOS | Ok                                                                                  |
+| Opera   | MacOS | Seems ok                                                                            |
 | Firefox | MacOS | Requires Firefox [113.0+](https://www.mozilla.org/en-US/firefox/113.0/releasenotes) |
 | Safari  | MacOS | Doesn't support [customized web components [2]](#2) and [[3]](#3)                   |
 | Edge    |       | ?                                                                                   |
@@ -22,18 +22,18 @@ It isn't remotely responsive and almost certainly isn't usable  on a mobile phon
 _Notes:_
 1. Firefox 113.0 fixes a long standing issue ([[1]](#2)) with _AudioWorklets_ and ES6 modules but
    it absolutely devours CPU cycles running _snyth_, whereas Chrome barely notices.
+2. Safari sort of works but rough around the edges would be an understatement.
 
 
 ## MIDI files
 
 At this stage, the MIDI file interpretation is very basic - it does the job (mostly) but not much more than
-that. So a lot of MIDI files are not going to sound very good straight out of the box - for one thing they're
+that. A lot of MIDI files are not going to sound very good straight out of the box - for one thing they're
 often arranged for multiple instruments and for another they often have an extravagant amount of notes.
 
 The most success I've had so far has been with MIDI files of good fingerstyle guitar arrangements, particularly
 some of those by:
 
-- [Gabriella Quevedo](https://www.youtube.com/@Gabriella9797)
 - [Luca Stricagnoli](https://www.youtube.com/@LucaStricagnoli)
 - [Eiro Nareth](https://www.youtube.com/watch?v=SaZiUBfXKEs)
 

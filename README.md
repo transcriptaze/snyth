@@ -1,5 +1,3 @@
-![build](https://github.com/transcriptaze/snyth/workflows/build/badge.svg)
-
 # snyth
 
 _tl;dr:_ the web app is [here](https://transcriptaze.github.io/snyth.html) and there is a basic user guide [here](documentation/guide.md). Be warned, it's just barely alpha software so expect some rough edges and also **please** see the [notes](NOTES.md)
@@ -78,11 +76,9 @@ that idiosyncratic sound that is yours alone.
 
 ### Polygons
 
-Shapes that identify as convex polygons are relatively straightforward to implement and the web app includes:
+Shapes that identify as convex polygons are relatively straightforward to implement and the web app includes
+two additional shapes:
 - square
-- diamond
-- pentagon
-- triangle
 - cowbell
 
 Concave polygons have some weird edge cases though and need a bit more thought but should hopefully make into a 
@@ -109,16 +105,17 @@ This is an umbrella repository and all the actual code lives in submodules:
 
 - [snyth-js](https://github.com/transcriptaze/snyth-js) for the HTML, CSS and Javascript source that go to 
   make up the web app. The actual web-app is a web-packed version of this repo.
-- [snyth-pd](https://github.com/transcriptaze/snyth-pd) is a PureData implementation in PureData. At the moment
+- [snyth-pd](https://github.com/transcriptaze/snyth-pd) is a basic implementation in _PureData_. At the moment
   there isn't much beyond a basic working demo.
-- [snyth-supercollider](https://github.com/transcriptaze/snyth-supercollider) is a Supercollider UGen for the 
+- [snyth-supercollider](https://github.com/transcriptaze/snyth-supercollider) is a _Supercollider_ UGen for the 
   basic _sn_ function and a couple of demo scripts.
 
 
 ### MIDI
 
-While it would be great to have a library of really good MIDI files it's not entirely clear what the legal situation
-would be about hosting them in a github repository and rather than deal with DMCA takedown notices:
+While it would be great to have a selection of really good demo MIDI files it's probably legally murky unless 
+the arrangements are clearly copyright free. Having said which, if you do have a MIDI file that you would 
+like to share:
 
 1. If you want to submit a MIDI file, please create a pull request against the MIDI branch of this repository.
 2. The pull request should:
@@ -127,6 +124,8 @@ would be about hosting them in a github repository and rather than deal with DMC
    - Include a _snyth.json_ file
 3. After merging the pull request the MIDI files themselves will be stashed somewhere safe (but in good company) 
    until the legal situation is clearer.
+
+Arrangements of classical music are mostly copyright free but be aware that some are copyrighted by the arranger.
 
 
 ## Licensing
