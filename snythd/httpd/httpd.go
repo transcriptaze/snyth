@@ -48,12 +48,15 @@ func Run(address string, port uint, debug bool) {
 		http.FS(fs),
 	}
 
-	http.Handle("/css/", http.FileServer(fsys))
-	http.Handle("/fonts/", http.FileServer(fsys))
-	http.Handle("/images/", http.FileServer(fsys))
-	http.Handle("/javascript/", http.FileServer(fsys))
-	http.Handle("/favicon.ico", http.FileServer(fsys))
-	http.Handle("/index.html", http.FileServer(fsys))
+	static := cors(http.FileServer(fsys), debug)
+
+	http.Handle("/css/", static)
+	http.Handle("/fonts/", static)
+	http.Handle("/images/", static)
+	http.Handle("/javascript/", static)
+	http.Handle("/midi/", static)
+	http.Handle("/favicon.ico", static)
+	http.Handle("/index.html", static)
 	http.HandleFunc("/", httpd.dispatch)
 
 	if p := os.Getenv("PORT"); p != "" {
@@ -83,6 +86,29 @@ func (d *dispatcher) dispatch(w http.ResponseWriter, r *http.Request) {
 	default:
 		http.Error(w, "Invalid request", http.StatusMethodNotAllowed)
 	}
+}
+
+func cors(next http.Handler, debug bool) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Access-Control-Allow-Origin", "*")
+		w.Header().Set("Cross-Origin-Embedder-Policy", "require-corp")
+		w.Header().Set("Access-Control-Allow-Methods", "GET, OPTIONS")
+		w.Header().Set("Access-Control-Allow-Headers", "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization")
+		w.Header().Set("Cross-Origin-Opener-Policy", "same-origin")
+
+		// devmode ?
+		if debug {
+			w.Header().Set("Cache-Control", "no-store, no-cache, must-revalidate")
+		} else {
+			w.Header().Set("Cache-Control", "max-age=3600, must-revalidate")
+		}
+
+		if r.Method == "OPTIONS" {
+			return
+		}
+
+		next.ServeHTTP(w, r)
+	})
 }
 
 func resolve(u *url.URL) (string, error) {
