@@ -1,6 +1,6 @@
 # snyth
 
-_tl;dr:_ the web app is [here](https://transcriptaze.github.io/snyth.html) and there is a basic user guide [here](documentation/guide.md). Be warned, it's just barely alpha software so expect some rough edges and also **please** see the [notes](NOTES.md)
+_tl;dr:_ the web app is [here](https://transcriptaze.github.io/snyth.html) and there is a basic user guide [here](documentation/guide.md). Be warned, it's just barely alpha software so expect some rough edges and also **please** see the [notes](documentation/NOTES.md)
 for things like browser compatiblity (basically Chrome is ok, mostly) and MIDI files.
 
 _snyth_ is an experimental additive synthesizer that uses the _Jacobi ellipse_ as the generator function. By

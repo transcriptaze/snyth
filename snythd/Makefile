@@ -3,7 +3,7 @@ DIST ?= development
 HTML ?= ../../snyth-development/html
 
 .PHONY: clean
-.PHONY: bump
+.PHONY: copy
 .PHONY: build-all
 
 all: test      \
@@ -20,6 +20,9 @@ update:
 update-release:
 	go mod tidy
 #	go mod vendor
+
+copy: 
+	cp -r $(HTML) .
 
 format: 
 	go fmt ./...
@@ -64,7 +67,6 @@ debug: build
 run: build
 	./bin/snythd 
 
-deploy: build
-	cp -r $(HTML) .
+deploy: copy build
 	gcloud app deploy app.yaml
 
