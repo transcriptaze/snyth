@@ -31,7 +31,13 @@ func Run(address string, port uint, debug bool) {
 
 	// ... initialise HTML templates
 
-	fs := html.HTML
+	var fs fs.FS
+	if debug {
+		fs = os.DirFS("../../snyth-development/html")
+	} else {
+		fs = html.HTML
+	}
+
 	templates, err := template.New("snythd").Funcs(funcs).ParseFS(fs, "index.html")
 	if err != nil {
 		fatalf("HTTPD", "%v", err)

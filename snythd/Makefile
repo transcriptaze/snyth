@@ -1,5 +1,6 @@
 VERSION ?= v0.0.x
 DIST ?= development
+HTML ?= ../../snyth-development/html
 
 .PHONY: clean
 .PHONY: bump
@@ -64,5 +65,6 @@ run: build
 	./bin/snythd 
 
 deploy: build
+	cp -r $(HTML) .
 	gcloud app deploy app.yaml
 
