@@ -59,7 +59,7 @@ build-all:
 release: build-all
 
 debug: build
-	./bin/snythd --debug
+	./bin/snythd --debug --html $(HTML)
 
 run: build
 	./bin/snythd 

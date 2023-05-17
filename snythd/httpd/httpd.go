@@ -26,14 +26,13 @@ var folders = []string{"/pages/*.html"}
 
 const GzipMinimum = 16384
 
-func Run(address string, port uint, debug bool) {
+func Run(root string, address string, port uint, debug bool) {
 	infof("HTTPD", "server initialising")
 
-	// ... initialise HTML templates
-
+	// ... initialise HTML file system and templates
 	var fs fs.FS
 	if debug {
-		fs = os.DirFS("../../snyth-development/html")
+		fs = os.DirFS(root)
 	} else {
 		fs = html.HTML
 	}
