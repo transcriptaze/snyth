@@ -22,6 +22,7 @@ update-release:
 #	go mod vendor
 
 copy: 
+	cd ../../snyth-development && make release
 	rm -rf html/css
 	rm -rf html/fonts
 	rm -rf html/images
@@ -66,12 +67,12 @@ build-all:
 	env GOOS=darwin  GOARCH=amd64 GOWORK=off go build --trimpath -o dist/$(DIST)/darwin  ./...
 	env GOOS=windows GOARCH=amd64 GOWORK=off go build --trimpath -o dist/$(DIST)/windows ./...
 
-release: build-all
+release: copy build-all
 
 debug: build
 	./bin/snythd --debug --html $(HTML)
 
-run: build
+run: copy build
 	./bin/snythd 
 
 deploy: copy build

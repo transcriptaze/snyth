@@ -70,17 +70,20 @@ downloaded by clicking on the _load_ button.
 when the level gets too high (or cause clipping if that's what you want). The secondary display around the outside displays the
 dynamic gain which will vary according to the output of the LFO assigned to the gain plug.
 
+### Record
+
+<img align="left" width="64" height="64" src="images/record.png"> The _Record_ control records the song playing until it ends 
+(or is stopped). The recorded audio can then be downloaded as an OGG file by clicking on the download arrow.
+
 ### Picker
 
 <img align="left" height="96" src="images/picker.png"> The _Picker_ control loads a MIDI file for playback. 
-Clicking on the retro cassette tape will open a file picker to load a MIDI file from disk. 
+Clicking on the retro cassette tape will open a file picker to load a MIDI file from disk. _alt-click_ will load and
+queue the file to be played once the current song is finished.
 
-The _slots_ on the right side of the tape are for preselected demo MIDI files and clicking on a highlighted slot
-will load the preselected demo MIDI file assigned to that slot. 
-
-The left side _slots_ are for MIDI files at URLs. Clicking on an empty (i.e. not highlighted) _slot_ will open a dialog
+The _slots_ are for MIDI files located at URLs. Clicking on an empty (i.e. not highlighted) _slot_ will open a dialog
 for a URL and the MIDI file at that URL will be downloaded to browser local storage and assigned to that slot for future
-use. _ctrl-click_ on the _slot_ clears the MIDI file for that slot.
+use. _ctrl-click_ on the _slot_ clears the MIDI file for that slot and _alt-click_ adds it to the playlist queue.
 
 ### Keyboard
 
@@ -111,11 +114,15 @@ height to width) of the shape being used as a generator. The transform is highly
 at the extremes where the adjustment range is also the smallest - to accomodate this, the eccentricity can be set approximately
 to the desired value usin the _ε_ control and then tweaked using the more sensitive _𝗌_ control.
 
+_ctrl-click_ resets the control to 0.
+
 ### _sensitivity_ (𝗌)
 
 <img align="left" width="48" height="48" src="images/s.png"> The _𝗌_ control is the fine adjustment control for
 the eccentricity of the shape being used as a generator. It adjusts the value set by the _ε_ control but has a smaller range 
 for the same range of motion.
+
+_ctrl-click_ resets the control to the midpoint.
 
 ### _rotation_ (𝜃)
 
@@ -125,25 +132,35 @@ hear it while it is changing and hardly at all when it is static) and more audib
 most useful for waveshaping an LFO curve but an othewise idle LFO can sweep the rotation back and forth to give it something to
 do.
 
+_ctrl-click_ resets the control to 0.
+
 ### _amplitude_ (a)
 
 <img align="left" width="48" height="48" src="images/a.png"> The _a_ control sets the amplitude of the _sn_ oscillator.
+
+_ctrl-click_ resets the control to the default value.
 
 ### _shift-x_ (δx)
 
 <img align="left" width="48" height="48" src="images/dx.png"> The _δx_ control sets the horizontal shift of the generating shape
 to create non-symmetric waveforms e.g. a sawtooth. 
 
+_ctrl-click_ resets the control to 0.
+
 ### _shift-y_ (δy)
 
 <img align="left" width="48" height="48" src="images/dy.png"> The _δy_ control sets the vertical shift of the generating shape. The
 resulting waveform has a distortion characteristic that can be useful in conjunction with an LFO.
+
+_ctrl-click_ resets the control to 0.
 
 ### _phase_ (Φ)
 
 <img align="left" width="48" height="48" src="images/phi.png"> The _Φ_ control sets initial phase the waveform component. The effect
 is barely audible (though it's useful for adjusting the waveform to look nice - y'know for photo ops) but comes into it's own
 when shaping an LFO curve.
+
+_ctrl-click_ resets the control to 0.
 
 ### _psi_ (𝜓)
 
@@ -157,10 +174,13 @@ sets the left-to-right volume). It does not affect visual appearance of the wave
 The _psi_ parameter is (mostly) intended for experimenting with binaural effects and allows components of a note to be placed
 and moved spatially without affecting the volume e.g. using an LFO.
 
+_ctrl-click_ resets the control to 0.
+
 ### _balance_ (b)
 
 <img align="left" width="48" height="48" src="images/phi.png"> The _b_ control sets left/right volume balance.
 
+_ctrl-click_ resets the control to 0.
 
 
 ## ENV
@@ -224,10 +244,14 @@ the shape being used as a generator. The transform is highly non-linear with the
 range is also the smallest - to accomodate this, the eccentricity can be set approximately to the desired value usin the _ε_ control
 and then tweaked using the more sensitive _𝗌_ control.
 
+_ctrl-click_ resets the control to 0.
+
 ### _sensitivity_ (𝗌)
 
 <img align="left" width="48" height="48" src="images/s.png"> The _𝗌_ control is the fine adjustment control for the eccentricity of
 the shape being used as a generator. It adjusts the value set by the _ε_ control but has a smaller range  for the same range of motion.
+
+_ctrl-click_ resets the control to the midpoint.
 
 ### _rotation_ (𝜃)
 
@@ -235,26 +259,36 @@ the shape being used as a generator. It adjusts the value set by the _ε_ contro
 which has the effect changing the waveform as well as moving it left and right (unlike the phase control which just moves the 
 waveform left and right).
 
+_ctrl-click_ resets the control to 0.
+
 ### _amplitude_ (a)
 
 <img align="left" width="48" height="48" src="images/a.png"> The _a_ control sets the contribution of the _LFO_ component to the
 in the summed LFO waveform. The corresponding LFO amplitude is not affected by the amplitude control, allowing the the LFO component
 to be used as a parameter modifier even when the ampitude is set to zero.
 
+_ctrl-click_ resets the control to the default value.
+
 ### _shift-x_ (δx)
 
 <img align="left" width="48" height="48" src="images/dx.png"> The _δx_ control sets the horizontal shift of the generating shape
 to create non-symmetric waveforms e.g. a sawtooth. 
+
+_ctrl-click_ resets the control to 0.
 
 ### _shift-y_ (δy)
 
 <img align="left" width="48" height="48" src="images/dy.png"> The _δy_ control sets the vertical shift of the generating shape to 
 get some truly weird LFO curves.
 
+_ctrl-click_ resets the control to 0.
+
 ### _phase_ (Φ)
 
 <img align="left" width="48" height="48" src="images/phi.png"> The _Φ_ control sets the phase of a waveform component which is
 really useful moving the peak back and forth to get an LFO waveform of a desired shape.
+
+_ctrl-click_ resets the control to 0.
 
 ### _frequency_ (f1, f2, f3 and f4)
 
@@ -279,7 +313,7 @@ The settings page displays the numeric (or text) values for all the current para
 
 ## Info
 
-At the moment just some basic information and lots of blank space waiting for inspiration.
+Basic application information, attributions for CCL licensed content and the cookies policy.
 
 
 
