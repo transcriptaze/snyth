@@ -7,7 +7,7 @@ _snyth_ is an experimental additive synthesizer that uses the _Jacobi ellipse_ a
 adjusting the eccentricity, rotation and horizontal shift of an ellipse a single oscillator can morph smoothly
 and intuitively between sine, square, triangular and sawtooth waveforms. 
 
-|                            **sine**                          |                     **square**                             |
+|                            sine                              |                       square                               |
 :-------------------------------------------------------------:|:-----------------------------------------------------------:
 | <img height="128" src="documentation/images/sine.png">       | <img height="128" src="documentation/images/square.png">   |
 |                            **triangular**                    |                       **sawtooth**                         |
@@ -30,9 +30,9 @@ At it's most basic, additive audio synthesis typically starts with four basic fu
 - triangular
 - sawtooth
 
-which are filtered, modulated, distorted and otherwise shaped to create the desired ouput sound. As commonly presented,
-the square, triangular and sawtooth waveforms are the theoretical result and practical implementation of summing an
-infinity of sine waves to generate a harmonically rich sound.
+which are filtered, modulated, distorted and otherwise shaped to create the desired ouput sound (e.g. [DSP function used by
+musical distortion plugins [13]](#13)). As commonly presented, the square, triangular and sawtooth waveforms are the theoretical
+result and practical implementation of summing an infinity of sine waves to generate a harmonically rich sound.
 
 Mathematically though, a sine can be seen as a special case of a Jacobi elliptic _sn_ function in the same way that
 a circle is a special case of an ellipse. From there, it's a small step from using a circle as a generator function
@@ -160,6 +160,8 @@ Everything in this repository (and all it's submodules) is licensed under GPL-3.
 <a id="11">11.</a> [Introduction to the Transcendent Waveform Analog Oscillator ](https://www.youtube.com/watch?v=xdjGRF7Wtwg)
 
 <a id="12">12.</a> [Spatial Audio, Francis Rumsey](https://www.routledge.com/Spatial-Audio/Rumsey/p/book/9780240516233)
+
+<a id="13">13.</a> [DSP function used by musical distortion plugins](https://dsp.stackexchange.com/questions/87879/dsp-function-used-by-musical-distortion-plugins)
 
 
 ## Attributions

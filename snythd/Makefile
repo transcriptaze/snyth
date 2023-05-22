@@ -22,7 +22,14 @@ update-release:
 #	go mod vendor
 
 copy: 
-	cp -r $(HTML) .
+	rm -rf html/css
+	rm -rf html/fonts
+	rm -rf html/images
+	rm -rf html/javascript
+	rm -rf html/midi
+	rm -rf html/favicon.ico
+	rm -rf html/index.html
+	cp -r  ../../snyth-development/dist/html .
 
 format: 
 	go fmt ./...
