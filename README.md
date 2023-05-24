@@ -166,7 +166,7 @@ Everything in this repository (and all it's submodules) is licensed under GPL-3.
 
 ## Attributions
 
-1. FFT by [nayuki.io](https://www.nayuki.io/page/free-small-fft-in-multiple-languages).
+1. FFT by [Project Nayuki](https://www.nayuki.io/page/free-small-fft-in-multiple-languages).
 2. The _Greensleeves Too_ MIDI is based on _Charles Duncan's_ fingerstyle guitar arrangement.
 3. Loop, settings and info icons by [onlinewebfonts.com](http://www.onlinewebfonts.com/icon).
 4. Save icon (https://www.iconarchive.com/show/flatwoken-icons-by-alecive/Apps-File-Save-icon.html)

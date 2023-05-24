@@ -9,20 +9,19 @@ so there is weird stuff that only makes sense at that time of the day.
 _snyth_ (the _snyth_ ?) has only really been extensively tested on Chrome on an **ancient** and **decrepit**
 Macbook Pro. For other browsers and operating systems, YMMV:
 
-| Browser | OS    | Notes                                                                               |
-|---------|-------|-------------------------------------------------------------------------------------|
-| Chrome  | MacOS | Ok                                                                                  |
-| Opera   | MacOS | Seems ok                                                                            |
-| Firefox | MacOS | Requires Firefox [113.0+](https://www.mozilla.org/en-US/firefox/113.0/releasenotes) |
-| Safari  | MacOS | Doesn't support [customized web components [2]](#2) and [[3]](#3)                   |
-| Edge    |       | ?                                                                                   |
+| Browser | MacOS | Windows | Linux | Notes                                                                               |
+|---------|-------|-------------------------------------------------------------------------------------------------------|
+| Chrome  | ✓     | ✓       |       |                                                                                     |
+| Opera   | ✓     |         |       |                                                                                     |
+| Firefox | ✓     | ✓       |       | Requires Firefox [113.0+](https://www.mozilla.org/en-US/firefox/113.0/releasenotes) |
+| Safari  | ✓     | -       |       | Doesn't support [customized web components [2]](#2) and [[3]](#3)                   |
+| Edge    | -     | ✓       |       |                                                                                     |
 
 It isn't remotely responsive and almost certainly isn't usable  on a mobile phone or tablet.
 
 _Notes:_
-1. Firefox 113.0 fixes a long standing issue ([[1]](#2)) with _AudioWorklets_ and ES6 modules but
-   it absolutely devours CPU cycles running _snyth_, whereas Chrome barely notices.
-2. Safari sort of works but rough around the edges would be an understatement.
+1. Firefox 113.0 fixes a long standing issue ([[1]](#2)) with _AudioWorklets_ and ES6 modules.
+2. Safari works but is rough around the edges (for one thing the canvas resolution seems a bit off).
 
 
 ## MIDI files
@@ -37,13 +36,13 @@ some of those by:
 - [Luca Stricagnoli](https://www.youtube.com/@LucaStricagnoli)
 - [Eiro Nareth](https://www.youtube.com/watch?v=SaZiUBfXKEs)
 
-Other sources include:
+Other sources:
 
 - [Online Sequencer](https://onlinesequencer.net) MIDI arrangments vary enormously in quality but it's possible
   to find ones that work reasonably well with the _snyth_ and if you dig deep enough and long enough some are 
   even really good. 
-- TBH, [BitMIDI](https://bitmidi.com) is more miss than hit but occasionally you'll stumble across something
-  useable.
+- In my experience, [BitMIDI](https://bitmidi.com) is more miss than hit but occasionally you'll stumble across
+  something useable.
 
 ## References
 
