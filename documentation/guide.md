@@ -318,7 +318,7 @@ _ctrl-click_ resets the control to 0.
 
 ### _on/off_ 
 
-<img align="left" width="22" height="128" src="images/lfo-switches.png"> Although an LFO may have a waveshape, frequency and patch
+<img align="left" width="11" height="64" src="images/lfo-switches.png"> Although an LFO may have a waveshape, frequency and patch
 it is not active unless specifically activated by the associated toggle button.
 <br/><br/>
 
