@@ -113,7 +113,7 @@ While it would be great to have a selection of really good demo MIDI files it's 
 the arrangements are clearly copyright free. Having said which, if you do have a MIDI file that you would 
 like to share:
 
-1. If you want to submit a MIDI file, please create a pull request against the MIDI branch of this repository.
+1. Please create a pull request against the MIDI branch of this repository.
 2. The pull request should:
    - Update the MIDI files list with a link to where you are hosting the MIDI file
    - Include the MIDI file

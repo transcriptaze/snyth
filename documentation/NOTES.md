@@ -46,6 +46,13 @@ Other sources:
 - In my experience, [BitMIDI](https://bitmidi.com) is more miss than hit but occasionally you'll stumble across
   something useable.
 
+### CORS
+
+While it would be nice to be able to load MIDI files directly from a URL but _snyth_ makes a lot of use of things 
+like _AudioWorklets_ and _SharedArrayBuffers_ and global current times, all of which are restricted to unless CORS
+header is set to _same-origin_. And since it is hosted on Github pages it just isn't possible ... you'll just have
+to download the files and use them locally until such time as this thing gets its own server.
+
 ## References
 
 <a id="1">1.</a> [Bug #1636121](https://bugzilla.mozilla.org/show_bug.cgi?id=1636121). Fixed in [113.0+](https://www.mozilla.org/en-US/firefox/113.0/releasenotes)
