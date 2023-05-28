@@ -55,6 +55,6 @@ to download the files and use them locally until such time as this thing gets it
 
 ## References
 
-<a id="1">1.</a> [Bug #1636121](https://bugzilla.mozilla.org/show_bug.cgi?id=1636121). Fixed in [113.0+](https://www.mozilla.org/en-US/firefox/113.0/releasenotes)
-<a id="2">2.</a> [What web component features are not supported by Safari desktop and Safari iOS?](https://stackoverflow.com/questions/72090155/what-web-component-features-are-not-supported-by-safari-desktop-and-safari-ios)
-<a id="3">3.</a> [Re: Custom form elements ...](https://lists.w3.org/Archives/Public/public-webapps/2013OctDec/1051.html)
+<a id="1">1.</a> [Bug #1636121](https://bugzilla.mozilla.org/show_bug.cgi?id=1636121). Fixed in [113.0+](https://www.mozilla.org/en-US/firefox/113.0/releasenotes)  
+<a id="2">2.</a> [What web component features are not supported by Safari desktop and Safari iOS?](https://stackoverflow.com/questions/72090155/what-web-component-features-are-not-supported-by-safari-desktop-and-safari-ios)  
+<a id="3">3.</a> [Re: Custom form elements ...](https://lists.w3.org/Archives/Public/public-webapps/2013OctDec/1051.html)  

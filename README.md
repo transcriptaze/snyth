@@ -133,33 +133,20 @@ Everything in this repository (and all it's submodules) is licensed under GPL-3.
 
 ## References and Related
 
-<a id="1">1.</a> [Jacobi_elliptic_functions](https://en.wikipedia.org/wiki/Jacobi_elliptic_functions#Definition_as_trigonometry:_the_Jacobi_ellipse)
-
-<a id="2">2.</a> [Elliptic functions as trigonometry](https://iopscience.iop.org/book/mono/978-1-6817-4230-4/chapter/bk978-1-6817-4230-4ch1)
-
-<a id="3">3.</a> [Lance Putnam: The Harmonic Pattern Function: A Mathematical Model Integrating Synthesis of Sound and Graphical Patterns](https://w2.mat.ucsb.edu/l.putnam/papers/ljp_diss_final.pdf)
-
-<a id="4">4.</a> [Lance Putnam: List of Publications](https://w2.mat.ucsb.edu/l.putnam)
-
-<a id="5">5.</a> [The history of the universe is an elliptic curve](https://arxiv.org/abs/1411.2192)
-
-<a id="6">6.</a> [The Synthesis of Environmental Sound Textures by Iterated Nonlinear Functions and its Ecological Relevance to Perceptual Modeling](https://www.academia.edu/84487853/The_Synthesis_of_Environmental_Sound_Textures_by_Iterated_Nonlinear_Functions_and_its_Ecological_Relevance_to_Perceptual_Modeling)
-
-<a id="7">7.</a> [Iterated Nonlinear Functions as a Sound Generating](https://direct.mit.edu/leon/article-abstract/34/3/249/44078/Iterated-Nonlinear-Functions-as-a-Sound-Generating)
-
-<a id="8">8.</a> [SuperCollider:GFIS](https://pustota.basislager.org/_/sc-help/Help/Classes/GFIS.html)
-
-<a id="9">9.</a> [Mathematicians Complete Quest to Build Spherical Cubes](https://www.quantamagazine.org/mathematicians-complete-quest-to-build-spherical-cubes-20230210)
-
-<a id="10">10.</a> [Chaos Theory for Synthesizers](http://ijfritz.byethost4.com/Chaos/ch_over.htm)
-
-<a id="11">11.</a> [Introduction to the Transcendent Waveform Analog Oscillator ](https://www.youtube.com/watch?v=xdjGRF7Wtwg)
-
-<a id="12">12.</a> [Spatial Audio, Francis Rumsey](https://www.routledge.com/Spatial-Audio/Rumsey/p/book/9780240516233)
-
-<a id="13">13.</a> [DSP function used by musical distortion plugins](https://dsp.stackexchange.com/questions/87879/dsp-function-used-by-musical-distortion-plugins)
-
-<a id="13">13.</a> [Poly Rhythms](https://www.youtube.com/watch?v=Lxs4cvSximc)
+<a id="1">1.</a> [Jacobi_elliptic_functions](https://en.wikipedia.org/wiki/Jacobi_elliptic_functions#Definition_as_trigonometry:_the_Jacobi_ellipse)  
+<a id="2">2.</a> [Elliptic functions as trigonometry](https://iopscience.iop.org/book/mono/978-1-6817-4230-4/chapter/bk978-1-6817-4230-4ch1)  
+<a id="3">3.</a> [Lance Putnam: The Harmonic Pattern Function: A Mathematical Model Integrating Synthesis of Sound and Graphical Patterns](https://w2.mat.ucsb.edu/l.putnam/papers/ljp_diss_final.pdf)  
+<a id="4">4.</a> [Lance Putnam: List of Publications](https://w2.mat.ucsb.edu/l.putnam)  
+<a id="5">5.</a> [The history of the universe is an elliptic curve](https://arxiv.org/abs/1411.2192)  
+<a id="6">6.</a> [The Synthesis of Environmental Sound Textures by Iterated Nonlinear Functions and its Ecological Relevance to Perceptual Modeling](https://www.academia.edu/84487853/The_Synthesis_of_Environmental_Sound_Textures_by_Iterated_Nonlinear_Functions_and_its_Ecological_Relevance_to_Perceptual_Modeling)  
+<a id="7">7.</a> [Iterated Nonlinear Functions as a Sound Generating](https://direct.mit.edu/leon/article-abstract/34/3/249/44078/Iterated-Nonlinear-Functions-as-a-Sound-Generating)  
+<a id="8">8.</a> [SuperCollider:GFIS](https://pustota.basislager.org/_/sc-help/Help/Classes/GFIS.html)  
+<a id="9">9.</a> [Mathematicians Complete Quest to Build Spherical Cubes](https://www.quantamagazine.org/mathematicians-complete-quest-to-build-spherical-cubes-20230210)  
+<a id="10">10.</a> [Chaos Theory for Synthesizers](http://ijfritz.byethost4.com/Chaos/ch_over.htm)  
+<a id="11">11.</a> [Introduction to the Transcendent Waveform Analog Oscillator ](https://www.youtube.com/watch?v=xdjGRF7Wtwg)  
+<a id="12">12.</a> [Spatial Audio, Francis Rumsey](https://www.routledge.com/Spatial-Audio/Rumsey/p/book/9780240516233)  
+<a id="13">13.</a> [DSP function used by musical distortion plugins](https://dsp.stackexchange.com/questions/87879/dsp-function-used-by-musical-distortion-plugins)  
+<a id="13">13.</a> [Poly Rhythms](https://www.youtube.com/watch?v=Lxs4cvSximc)  
 
 
 ## Attributions
