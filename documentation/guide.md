@@ -208,29 +208,29 @@ envelope editor. A highlighted _star_ icon on a button indicates that the envelo
 An envelope with all parameters set to the _default_ values for that envelope type is displayed _dimmed_. It can still be used
 as the active envelope in the synthesizer but it's a place to start rather than anything particularly interesting.
 
-<img align="center" width="256" height="128" src="images/ADSR.png">
-
 An envelope has 4 regions:
+
+<img align="center" width="512" height="256" src="images/ADSR.png">
 
 ### attack
 
 _attack_ is the initial time from note onset until it reaches the maximum value. The _attack_ is set directly by dragging the 
-_red triangle_ in the editor or alternatively using the _attack_ scrubber (<img align="center" width="256" height="128" src="images/attack.png">).
+_red triangle_ in the editor or alternatively using the _attack_ scrubber (<img width="128" height="20" src="images/attack.png">).
 
 ### decay
 
 _decay_ is the time from when a note reaches it's initial maximum value until it reaches it's sustained level. The _decay_ is set
-directly by dragging the _purple square_ in the editor or alternatively using the _decay_ scrubber (<img align="center" width="256" height="128" src="images/decay.png">).
+directly by dragging the _purple square_ in the editor or alternatively using the _decay_ scrubber (<img width="128" height="20" src="images/decay.png">).
 
 ### sustain
 
 _sustain_ is the level at which a note plays while held. The _sustain_ level is set directly by dragging the indigo line in the 
-editor or alternatively using the _sustain_ scrubber (<img align="center" width="256" height="128" src="images/sustain.png">).
+editor or alternatively using the _sustain_ scrubber (<img width="128" height="20" src="images/sustain.png">).
 
 ### release
 
 _release_ is the time from when a note is released until it stops playing altogether. The _release_ is set directly by dragging the 
-_yellow diamond_ in the editor or alternatively using the _release_ scrubber (<img align="center" width="256" height="128" src="images/release.png">).
+_yellow diamond_ in the editor or alternatively using the _release_ scrubber (<img width="128" height="20" src="images/release.png">).
 
 AR envelopes only have two - attack and release but can be considered ADSR envelopes with a fixed decay of 0 and a sustain level of 1.
 
@@ -321,14 +321,16 @@ multiplier. Which makes things interesting, complicated and occasionally fun and
 
 ### _range_ 
 
-<img align="left" width="48" height="48" src="images/lfo-ranges.png"> The range controls set the output swing of an LFO over the 
+<img align="left" width="73" height="128" src="images/lfo-ranges.png"> The range controls set the output swing of an LFO over the 
 range of the destination SN parameter. Mostly the entire range is used and the SN control sets the range, but for something like
 volume it's often desirable to vary it over a smaller region e.g. the top 20%. Dragging the top and bottom of the associated 
 range control adjusts the output swing. 
 
 ### Patchbay
 
-<img align="left" width="256" height="128" src="images/patchbay.png"> The patchbay assigns LFOs to SN oscillator parameters - 
+<img align="left" width="512" height="129" src="images/patchbay.png"> 
+
+The patchbay assigns LFOs to SN oscillator parameters - 
 drag 'n drop the ends of the patches. There are a couple of _parking places_ on the left to keep unused patch cables out of the 
 way.
 
@@ -342,7 +344,7 @@ The settings page displays the numeric (or text) values for all the current para
 
 ### Save
 
-<img align="left" width="48" height="48" src="images/save.png"> Saves the current settings as a JSON file. Checking the _timestamp_
+<img align="left" width="64" height="104" src="images/save.png"> Saves the current settings as a JSON file. Checking the _timestamp_
 option defaults to a file named _snyth-YYYY-MM-dd HH-mm-ss.json_ otherwise it defaults to simply _snyth.json"_. Checking the
 _wavetable_ option includes a 360 point wavetable in the JSON file and checking the _MIDI_ option includes the MIDI file data
 in the saved JSON.
@@ -356,6 +358,7 @@ includes MIDI data, that is also restored, otherwise the current MIDI file selec
 ### Clear
 
 <img align="left" width="48" height="48" src="images/clear.png"> Resets everything (except the MIDI file) to the default settings.
+
 
 
 ## Info
