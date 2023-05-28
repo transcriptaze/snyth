@@ -330,12 +330,12 @@ multiplier. Which makes things interesting, complicated and occasionally fun and
 
 ### _range_ 
 
-<img width="36" height="64" src="images/lfo-ranges.png"> The range controls set the output swing of an LFO over the 
+<img align="left" width="36" height="64" src="images/lfo-ranges.png"> The range controls set the output swing of an LFO over the 
 range of the destination SN parameter. Mostly the entire range is used and the SN control sets the range, but for something like
 volume it's often desirable to vary it over a smaller region e.g. the top 20%. Dragging the top and bottom of the associated 
 range control adjusts the output swing.  
 
-<br/><br/>
+<br/>
 
 ### Patchbay
 
@@ -345,7 +345,7 @@ The patchbay assigns LFOs to SN oscillator parameters -
 drag 'n drop the ends of the patches. There are a couple of _parking places_ on the left to keep unused patch cables out of the 
 way.  
 
-<br/><br/>
+<br/>
 
 ## Settings
 
