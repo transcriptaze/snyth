@@ -87,8 +87,7 @@ This seems relatively novel which is surprising considering the basically simpli
 just lurking somewhere under a different name, but the only related work I've stumbled across so far is:
 
 - Lance Putnam's [thesis [3]](#3) and [publications [4]](#4) which approach it from a different direction
-  (pattern generation).
-
+  (pattern generation).   
 - Agostino Di Scipio's two papers on audio synthesis using iterated non-linear functions (with an implementation
   in Supercollider):
   - [Synthesis Of Environmental Sound Textures by Iterated Nonlinear Functions [7]](#7)
