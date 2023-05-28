@@ -62,10 +62,6 @@ Some points of interest:
 All of which means that the four separate oscillator functions can be replaced by a single not-very-complicated
 function that can be smoothly varied across it's range e.g. using a VCA. 
 
-The _Greensleeves_ demo on YouTube is an example of using this to render a version of _Greensleeves_ in which
-every single note is ever so slightly different and also varies during the note as well. While this isn't
-all that difficult to do using other synthesizers, this particuarly rendering is _snyths_ all the way down 
-and pleasingly elegant.
 
 ## Generalising to other shapes
 
