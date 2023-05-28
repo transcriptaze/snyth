@@ -1,9 +1,11 @@
 # MIDI files
 
-| Title                                                                         | Notes                                                 |
-:------------------------------------------------------------------------------:|:-----------------------------------------------------:|
-| [Greensleeves](https://transcriptaze.github.io/midi/greensleeves.mid          | Traditional arrangement                               |  
-| [Greensleeves Too](https://transcriptaze.github.io/midi/greensleeves-too.mid) | Based on Charles Duncan's classical guitar arrangment |  
-| [Take Five](https://transcriptaze.github.io/midi/take-five.mid)               | Original by Paul Desmond, this arrangment is based on String Cheese Incident's version |
-| [Canon in D](https://transcriptaze.github.io/midi/canon-in-d.mid)             | Pachelbel, from one of the online sequencer versions  | 
-| [Toccata in D](https://transcriptaze.github.io/midi/toccata-in-d.mid)         | J.S Bach, from one of the online sequencer versions   | 
+| Title                                                         | Notes                                                 |
+|---------------------------------------------------------------|-------------------------------------------------------|
+| [Greensleeves](greensleeves.mid)                              | Traditional arrangement                               |
+| [Greensleeves Too](greensleeves-too.mid)                      | Based on Charles Duncan's classical guitar arrangment |
+| [Take Five - Paul Desmond](take-five.mid)                     | Based on String Cheese Incident's version             |
+| [Canon in D - Pachelbel](canon-in-d.mid)                      | From one of the online sequencer versions             |
+| [Toccata in D - J.S. Bach](toccata-in-d.mid)                  | From one of the online sequencer versions             |
+|                                                               |                                                       |
+| [Nuclear - Mike Oldfield](https://onlinesequencer.net/207414) | [Mintorment piano arrangement](https://www.youtube.com/watch?v=h9YPrp0KUaQ) |

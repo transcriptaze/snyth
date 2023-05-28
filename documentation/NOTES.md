@@ -10,7 +10,7 @@ _snyth_ (the _snyth_ ?) has only really been extensively tested on Chrome on an 
 Macbook Pro. For other browsers and operating systems, YMMV:
 
 | Browser | MacOS | Windows | Linux | Notes                                                                               |
-|---------|-------|-------------------------------------------------------------------------------------------------------|
+|---------|-------|---------|-------|-------------------------------------------------------------------------------------|
 | Chrome  | ✓     | ✓       |       |                                                                                     |
 | Opera   | ✓     |         |       |                                                                                     |
 | Firefox | ✓     | ✓       |       | Requires Firefox [113.0+](https://www.mozilla.org/en-US/firefox/113.0/releasenotes) |
@@ -20,21 +20,23 @@ Macbook Pro. For other browsers and operating systems, YMMV:
 It isn't remotely responsive and almost certainly isn't usable  on a mobile phone or tablet.
 
 _Notes:_
-1. Firefox 113.0 fixes a long standing issue ([[1]](#2)) with _AudioWorklets_ and ES6 modules.
+1. Firefox 113.0 fixes a long standing issue [[1]](#2) with _AudioWorklets_ and ES6 modules.
 2. Safari works but is rough around the edges (for one thing the canvas resolution seems a bit off).
 
 
 ## MIDI files
 
-At this stage, the MIDI file interpretation is very basic - it does the job (mostly) but not much more than
-that. A lot of MIDI files are not going to sound very good straight out of the box - for one thing they're
-often arranged for multiple instruments and for another they often have an extravagant amount of notes.
+At this stage, the MIDI file interpretation is very basic - it does the job (mostly) but otherwise is somewhat
+less than ummm, stellar. A lot of MIDI files are not going to sound very good straight out of the box - for one
+thing they're often arranged for multiple instruments and for another they often have an extravagant amount of
+notes.
 
 The most success I've had so far has been with MIDI files of good fingerstyle guitar arrangements, particularly
-some of those by:
+those by:
 
 - [Luca Stricagnoli](https://www.youtube.com/@LucaStricagnoli)
 - [Eiro Nareth](https://www.youtube.com/watch?v=SaZiUBfXKEs)
+- [Martin Tallstrom](https://www.youtube.com/@tallstrom)
 
 Other sources:
 

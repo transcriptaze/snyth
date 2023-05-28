@@ -163,6 +163,8 @@ Everything in this repository (and all it's submodules) is licensed under GPL-3.
 
 <a id="13">13.</a> [DSP function used by musical distortion plugins](https://dsp.stackexchange.com/questions/87879/dsp-function-used-by-musical-distortion-plugins)
 
+<a id="13">13.</a> [Poly Rhythms](https://www.youtube.com/watch?v=Lxs4cvSximc)
+
 
 ## Attributions
 
