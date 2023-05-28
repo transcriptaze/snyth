@@ -214,23 +214,31 @@ An envelope has 4 regions:
 
 ### attack
 
+<img align="left" width="128" height="20" src="images/attack.png">
+
 _attack_ is the initial time from note onset until it reaches the maximum value. The _attack_ is set directly by dragging the 
-_red triangle_ in the editor or alternatively using the _attack_ scrubber <img width="128" height="20" src="images/attack.png">.
+_red triangle_ in the editor or alternatively using the _attack_ scrubber .
 
 ### decay
 
+ <img align="left" width="128" height="20" src="images/decay.png">
+
 _decay_ is the time from when a note reaches it's initial maximum value until it reaches it's sustained level. The _decay_ is set
-directly by dragging the _purple square_ in the editor or alternatively using the _decay_ scrubber <img width="128" height="20" src="images/decay.png">.
+directly by dragging the _purple square_ in the editor or alternatively using the _decay_ scrubber.
 
 ### sustain
 
+<img align="left" width="128" height="20" src="images/sustain.png">
+
 _sustain_ is the level at which a note plays while held. The _sustain_ level is set directly by dragging the indigo line in the 
-editor or alternatively using the _sustain_ scrubber <img width="128" height="20" src="images/sustain.png">.
+editor or alternatively using the _sustain_ scrubber.
 
 ### release
 
+ <img align="left" width="128" height="20" src="images/release.png">
+
 _release_ is the time from when a note is released until it stops playing altogether. The _release_ is set directly by dragging the 
-_yellow diamond_ in the editor or alternatively using the _release_ scrubber <img width="128" height="20" src="images/release.png">.
+_yellow diamond_ in the editor or alternatively using the _release_ scrubber.
 
 AR envelopes only have two - attack and release but can be considered ADSR envelopes with a fixed decay of 0 and a sustain level of 1.
 
