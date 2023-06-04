@@ -325,7 +325,7 @@ it is not active unless specifically activated by the associated toggle button.
 ### _frequency_ (f1, f2, f3 and f4)
 
 <img align="left" width="48" height="48" src="images/lfo-frequency.png"> The base frequency for each of the four LFOs can be set
-independently, over a range of 0.1Hz to 10Hz. The base frequency for the primary LFO is that set by the _yellow_ _ƒ₁_ control. 
+independently, over a range of 0.1Hz to 11Hz. The base frequency for the primary LFO is that set by the _yellow_ _ƒ₁_ control. 
 The frequency of the secondary LFOs is the base frequency set by the associated control multiplied by the SN oscillator 
 multiplier. Which makes things interesting, complicated and occasionally fun and will probably be rethought one of these days.  
 
