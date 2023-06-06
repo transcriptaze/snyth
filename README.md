@@ -83,7 +83,7 @@ release quite soon.
 
 ## Waivers and Demurrers
 
-This seems to be a relatively unexplored approach which is surprising considering the basically simplicity. It's quite
+This seems to be a relatively unexplored approach which is surprising considering the basicsimplicity. It's quite
 possibly just lurking somewhere under a different name, but the only related work I've stumbled across so far is:
 
 - Lance Putnam's [thesis [3]](#3) and [publications [4]](#4) which approach it from a different direction
@@ -114,9 +114,10 @@ While it would be great to have a selection of really good demo MIDI files it's 
 the arrangements are clearly copyright free. Having said which, if you do have a MIDI file that you would 
 like to share:
 
-1. Please create a pull request against the MIDI branch of this repository.
+1. Please create a pull request against the [MIDI](https://github.com/transcriptaze/snyth/tree/midi) branch of
+   this repository.
 2. The pull request should:
-   - Update the MIDI files list with a link to where you are hosting the MIDI file
+   - Update the MIDI files list with a link to where the MIDI file is hosted
    - Include the MIDI file
    - Include a _snyth.json_ file
 3. After merging the pull request the MIDI files themselves will be stashed somewhere safe (but in good company) 
