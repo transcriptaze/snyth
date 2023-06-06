@@ -184,6 +184,13 @@ _ctrl-click_ resets the control to 0.
 _ctrl-click_ resets the control to 0.
 
 
+### _anti-aliasing_ (AA)
+
+<img align="left" width="48" height="48" src="images/AA.png"> The _AA_ control enable (or disables) the anti-aliasing filter
+that reduces the effect of aliasing by high frequency components that exceed the Nyquist rate (typically 22050Hz for CD audio).
+The filter is currently implemented as a biquad low pass filter with a cutoff frequency of 8192Hz and a relatively gentle 
+12dB/octave rolloff.
+
 ## ENV
 
 The **ENV** panel sets the parameters for the audio envelope that can be applied to the notes played by the synthesizer.

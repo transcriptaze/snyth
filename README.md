@@ -1,7 +1,7 @@
 # snyth
 
 _tl;dr:_ the web app is [here](https://transcriptaze.github.io/snyth.html) and there is a basic user guide [here](documentation/guide.md). Be warned, it's just barely alpha software so expect some rough edges and also **please** see the [notes](documentation/NOTES.md)
-for things like browser compatiblity (basically Chrome is ok, mostly) and MIDI files.
+for things like browser compatibility (basically Chrome is ok, mostly) and MIDI files.
 
 _snyth_ is an experimental additive synthesizer that uses the _Jacobi ellipse_ as the generator function. By
 adjusting the eccentricity, rotation and horizontal shift of an ellipse a single oscillator can morph smoothly
@@ -30,9 +30,9 @@ At it's most basic, additive audio synthesis typically starts with four basic fu
 - triangular
 - sawtooth
 
-which are filtered, modulated, distorted and otherwise shaped to create the desired ouput sound (e.g. [DSP function used by
-musical distortion plugins [13]](#13)). As commonly presented, the square, triangular and sawtooth waveforms are the theoretical
-result and practical implementation of summing an infinity of sine waves to generate a harmonically rich sound.
+which are then summed, filtered, modulated, distorted and otherwise shaped to create the desired ouput sound (e.g. [DSP function
+used by musical distortion plugins [13]](#13)). As commonly presented, the square, triangular and sawtooth waveforms are the
+theoretical result and practical implementation of summing an infinity of sine waves to generate a harmonically rich sound.
 
 Mathematically though, a sine can be seen as a special case of a Jacobi elliptic _sn_ function in the same way that
 a circle is a special case of an ellipse. From there, it's a small step from using a circle as a generator function
@@ -83,8 +83,8 @@ release quite soon.
 
 ## Waivers and Demurrers
 
-This seems relatively novel which is surprising considering the basically simplicity. It's quite possibly
-just lurking somewhere under a different name, but the only related work I've stumbled across so far is:
+This seems to be a relatively unexplored approach which is surprising considering the basically simplicity. It's quite
+possibly just lurking somewhere under a different name, but the only related work I've stumbled across so far is:
 
 - Lance Putnam's [thesis [3]](#3) and [publications [4]](#4) which approach it from a different direction
   (pattern generation).   
@@ -94,9 +94,40 @@ just lurking somewhere under a different name, but the only related work I've st
   - [Iterated Nonlinear Functions as a Sound-Generating Engine [7]](#7)
   - [SuperCollider:GFIS [8]](#8)
 
+## Contributing
+
+This is an umbrella repository and all the actual code lives in submodules:
+
+- [snyth-js](https://github.com/transcriptaze/snyth-js) for the HTML, CSS and Javascript source that go to 
+  make up the web app. The actual web-app is a web-packed version of this repo.
+- [snyth-pd](https://github.com/transcriptaze/snyth-pd) is a basic implementation in _PureData_. At the moment
+  there isn't much beyond a basic working demo.
+- [snyth-supercollider](https://github.com/transcriptaze/snyth-supercollider) is a _Supercollider_ UGen for the 
+  basic _sn_ function and a couple of demo scripts.
+
+Please see the READMEs for the respective modules for submitting code. For bug reports, issues, feature requests
+please create an issue in this repository.
+
+### MIDI
+
+While it would be great to have a selection of really good demo MIDI files it's probably legally murky unless 
+the arrangements are clearly copyright free. Having said which, if you do have a MIDI file that you would 
+like to share:
+
+1. Please create a pull request against the MIDI branch of this repository.
+2. The pull request should:
+   - Update the MIDI files list with a link to where you are hosting the MIDI file
+   - Include the MIDI file
+   - Include a _snyth.json_ file
+3. After merging the pull request the MIDI files themselves will be stashed somewhere safe (but in good company) 
+   until the legal situation is clearer.
+
+Arrangements of classical music are mostly copyright free but be aware that some are copyrighted by the arranger.
+
+
 ## Licensing
 
-Everything in this repository (and all it's submodules) is licensed under GPL-3.0. 
+Everything in this repository and all it's submodules is licensed under GPL-3.0. 
 
 ## Notes
 
