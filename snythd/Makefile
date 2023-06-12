@@ -1,6 +1,6 @@
 VERSION ?= v0.0.x
 DIST ?= development
-HTML ?= ../../snyth-development/html
+HTML ?= ../snyth-js/html
 
 .PHONY: clean
 .PHONY: copy

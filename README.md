@@ -6,7 +6,7 @@ Be warned, it's just barely alpha software so expect some rough edges and also *
 for things like browser compatibility (basically Chrome is ok, mostly) and MIDI files.
 
 For the only mildly curious, there are a couple of basic YouTube demo videos:
-- [Nuclear (Mike Oldfield)](https://youtu.be/2jzFQkDbAyU)
+- [Nuclear](https://youtu.be/2jzFQkDbAyU)
 - [Greensleeves](https://youtu.be/AzKBIvqoMz4)
 - [Rondo alla Turca](https://www.youtube.com/watch?v=I3ut6H6-gvE)
 
@@ -135,7 +135,7 @@ Arrangements of classical music are mostly copyright free but be aware that some
 
 ## Licensing
 
-Everything in this repository and all it's submodules is licensed under GPL-3.0. 
+Everything in this repository and all it's submodules is licensed under [GPL-3.0](https://github.com/transcriptaze/snyth-js/blob/master/LICENSE). 
 
 ## Notes
 

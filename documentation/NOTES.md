@@ -48,10 +48,10 @@ Other sources:
 
 ### CORS
 
-While it would be nice to be able to load MIDI files directly from a URL but _snyth_ makes a lot of use of things 
-like _AudioWorklets_ and _SharedArrayBuffers_ and global current times, all of which are restricted to unless CORS
-header is set to _same-origin_. And since it is hosted on Github pages it just isn't possible ... you'll just have
-to download the files and use them locally until such time as this thing gets its own server.
+It would be nice to be able to load MIDI files directly from a URL but _snyth_ makes a lot of use of things like
+_AudioWorklets_ and _SharedArrayBuffers_ and global current times, all of which are restricted unless the CORS
+header is set to _same-origin_. And since it is hosted on Github pages it just isn't possible, so until this 
+thing gets its own server you'll have to download the files and load them locally.
 
 ## References
 
