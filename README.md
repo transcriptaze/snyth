@@ -5,9 +5,10 @@ _tl;dr:_ the web app is [here](https://transcriptaze.github.io/snyth.html) and t
 Be warned, it's just barely alpha software so expect some rough edges and also **please** see the [notes](documentation/NOTES.md)
 for things like browser compatibility (basically Chrome is ok, mostly) and MIDI files.
 
-And for the only mildly curious, there are a couple of basic YouTube demo videos:
+For the only mildly curious, there are a couple of basic YouTube demo videos:
 - [Nuclear (Mike Oldfield)](https://youtu.be/2jzFQkDbAyU)
 - [Greensleeves](https://youtu.be/AzKBIvqoMz4)
+- [Rondo alla Turca](https://www.youtube.com/watch?v=I3ut6H6-gvE)
 
 _snyth_ is an experimental additive synthesizer that uses the _Jacobi ellipse_ as the generator function. By
 adjusting the eccentricity, rotation and horizontal shift of an ellipse a single oscillator can morph smoothly
