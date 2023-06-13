@@ -87,10 +87,63 @@ two additional shapes:
 Concave polygons have some weird edge cases though and need a bit more thought but should hopefully make into a 
 release quite soon.
 
+## Getting Started
+
+The [web app](https://transcriptaze.github.io/snyth.html) is the easiest but if you want to run it locally the
+[Releases]() section has executables for:
+
+- Linux
+- MacOS
+- Windows
+
+Download the executable for your operating system to the folder of your choice, run it and then open http://localhost:9000
+in a browser window. 
+
+### Building from source
+
+Required tools:
+- [Go 1.20+](https://go.dev)
+- [sass](https://sass-lang.com)
+- [eslint](https://eslint.org) (optional but recommended)
+- [eslint-config-standard](https://www.npmjs.com/package/eslint-config-standard) (optional but recommended)
+- make (optional but recommended)
+
+**NOTES:**
+
+1. `apt install sass` on Ubuntu installs `ruby-sass` which was marked **[obsolete](https://sass-lang.com/ruby-sass)**
+in 2019. Please follow the installation instructions on the [Sass homepage](https://sass-lang.com) to install
+the current version._
+
+2. The _make_ build uses `eslint` and `eslint_config_standard`. `eslint_config_standard` is a **dev** dependency and
+should be installed locally in the project:
+
+    * Initial project setup:
+```
+git clone --recurse-submodules https://github.com/transcriptaze/snyth.git
+cd snyth
+```
+   * To build using the included Makefile:
+```
+cd snyth-js
+make build
+cd ../snythd
+make build
+make debug
+```
+   * Without using `make`:
+```
+cd snyth-js
+sass --no-source-map sass/themes:html/css
+cd ../snythd
+go fmt ./...
+mkdir -p bin
+go build -mod readonly --trimpath -o bin ./...
+./bin/snythd --debug --html ../snyth-js/html
+```
 
 ## Waivers and Demurrers
 
-This seems to be a relatively unexplored approach which is surprising considering the basicsimplicity. It's quite
+This seems to be a relatively unexplored approach which is surprising considering the basic simplicity. It's quite
 possibly just lurking somewhere under a different name, but the only related work I've stumbled across so far is:
 
 - Lance Putnam's [thesis [3]](#3) and [publications [4]](#4) which approach it from a different direction
@@ -100,6 +153,7 @@ possibly just lurking somewhere under a different name, but the only related wor
   - [Synthesis Of Environmental Sound Textures by Iterated Nonlinear Functions [7]](#7)
   - [Iterated Nonlinear Functions as a Sound-Generating Engine [7]](#7)
   - [SuperCollider:GFIS [8]](#8)
+
 
 ## Contributing
 
@@ -114,6 +168,7 @@ This is an umbrella repository and all the actual code lives in submodules:
 
 Please see the READMEs for the respective modules for submitting code. For bug reports, issues, feature requests
 please create an issue in this repository.
+
 
 ### MIDI
 
@@ -136,8 +191,6 @@ Arrangements of classical music are mostly copyright free but be aware that some
 ## Licensing
 
 Everything in this repository and all it's submodules is licensed under [GPL-3.0](https://github.com/transcriptaze/snyth-js/blob/master/LICENSE). 
-
-## Notes
 
 
 ## References and Related
