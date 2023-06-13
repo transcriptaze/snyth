@@ -22,7 +22,7 @@ update-release:
 #	go mod vendor
 
 copy: 
-	cd ../../snyth-development && make release
+	cd ../snyth-js && make release
 	rm -rf html/css
 	rm -rf html/fonts
 	rm -rf html/images
@@ -30,14 +30,13 @@ copy:
 	rm -rf html/midi
 	rm -rf html/favicon.ico
 	rm -rf html/index.html
-	cp -r  ../../snyth-development/dist/html .
+	cp -r  ../snyth-js/dist/html .
 
 format: 
 	go fmt ./...
 
 build: format
 	mkdir -p bin
-#	go build -mod readonly --trimpath -ldflags="-X 'main.version=$(VERSION)'" -o bin ./...
 	go build -mod readonly --trimpath -ldflags="-X 'main.version=$(VERSION)'" -o bin ./...
 
 test: build
