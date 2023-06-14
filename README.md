@@ -160,19 +160,18 @@ possibly just lurking somewhere under a different name, but the only related wor
 This is an umbrella repository and all the actual code lives in submodules:
 
 - [snyth-js](https://github.com/transcriptaze/snyth-js) for the HTML, CSS and Javascript source that go to 
-  make up the web app. The actual web-app is a web-packed version of this repo.
+  make up the web app. The actual web-app is a rollup'd version of this repo.
 - [snyth-pd](https://github.com/transcriptaze/snyth-pd) is a basic implementation in _PureData_. At the moment
   there isn't much beyond a basic working demo.
 - [snyth-supercollider](https://github.com/transcriptaze/snyth-supercollider) is a _Supercollider_ UGen for the 
   basic _sn_ function and a couple of demo scripts.
 
-Please see the READMEs for the respective modules for submitting code. For bug reports, issues, feature requests
-please create an issue in this repository.
+Please see the READMEs for the respective modules for submitting bug reports, issues, feature requests, etc.
 
 
 ### MIDI
 
-While it would be great to have a selection of really good demo MIDI files it's probably legally murky unless 
+It would be great to have a selection of really good demo MIDI files but it's probably legally murky unless 
 the arrangements are clearly copyright free. Having said which, if you do have a MIDI file that you would 
 like to share:
 
