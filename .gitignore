@@ -1,3 +1,4 @@
 .DS_Store
-snyth-development
-snyth-midi
+node_modules
+dist
+
