@@ -1,14 +1,15 @@
 # snyth
 
-_tl;dr:_ the web app is [here](https://transcriptaze.github.io/snyth.html) and there is a basic user guide [here](documentation/guide.md).
+_tl;dr:_ the web app is [here](https://snyth.pages.dev) and there is a basic user guide [here](documentation/guide.md).
 
-Be warned, it's just barely alpha software so expect some rough edges and also **please** see the [notes](documentation/NOTES.md)
+Be warned, it's just barely alpha software so expect rough edges and also **please** see the [notes](documentation/NOTES.md)
 for things like browser compatibility (basically Chrome is ok, mostly) and MIDI files.
 
 For the only mildly curious, there are a couple of basic YouTube demo videos:
 - [Nuclear](https://youtu.be/2jzFQkDbAyU)
 - [Greensleeves](https://youtu.be/AzKBIvqoMz4)
 - [Rondo alla Turca](https://www.youtube.com/watch?v=I3ut6H6-gvE)
+- [Time (Inception)](https://youtu.be/3vRPjJlIbgA)
 
 _snyth_ is an experimental additive synthesizer that uses the _Jacobi ellipse_ as the generator function. By
 adjusting the eccentricity, rotation and horizontal shift of an ellipse a single oscillator can morph smoothly
@@ -26,8 +27,7 @@ The canonical _snyth_ experience:
    3. Start the _Take Five_ MIDI (3rd slot from the top on the retro cassette tape).
    4. And then just play with the controls to hear it come alive as you add harmonics and distortions.
 
-Please bear in mind that this is still very early stage and also experimental and there are more than few rough
-edges. Have fun!
+Please bear in mind that this is still very early stage and experimental. Have fun!
 
 ## Background
 
@@ -97,7 +97,7 @@ The [web app](https://transcriptaze.github.io/snyth.html) is the easiest but if 
 - Windows
 
 Download the executable for your operating system to the folder of your choice, run it and then open http://localhost:9000
-in a browser window. 
+in a web browser. 
 
 ### Building from source
 

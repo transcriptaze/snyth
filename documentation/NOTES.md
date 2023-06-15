@@ -31,12 +31,10 @@ less than ummm, stellar. A lot of MIDI files are not going to sound very good st
 thing they're often arranged for multiple instruments and for another they often have an extravagant amount of
 notes.
 
-The most success I've had so far has been with MIDI files of good fingerstyle guitar arrangements, particularly
-those by:
+The most success I've had so far has been with MIDI files of good fingerstyle guitar arrangements, e.g.:
 
-- [Luca Stricagnoli](https://www.youtube.com/@LucaStricagnoli)
-- [Eiro Nareth](https://www.youtube.com/watch?v=SaZiUBfXKEs)
-- [Martin Tallstrom](https://www.youtube.com/@tallstrom)
+- [Luca Stricagnoli's](https://www.youtube.com/@LucaStricagnoli) arrangement of [Rondo alla Turca](https://www.youtube.com/watch?v=I3ut6H6-gvE)
+- [Eiro Nareth's](https://www.youtube.com/watch?v=SaZiUBfXKEs) arrangement of [Time](https://youtu.be/3vRPjJlIbgA) (from the Inception movie).
 
 Other sources:
 
