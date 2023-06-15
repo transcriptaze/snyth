@@ -34,7 +34,7 @@ notes.
 The most success I've had so far has been with MIDI files of good fingerstyle guitar arrangements, e.g.:
 
 - [Luca Stricagnoli's](https://www.youtube.com/@LucaStricagnoli) arrangement of [Rondo alla Turca](https://www.youtube.com/watch?v=I3ut6H6-gvE)
-- [Eiro Nareth's](https://www.youtube.com/watch?v=SaZiUBfXKEs) arrangement of [Time](https://youtu.be/3vRPjJlIbgA) (from the Inception movie).
+- [Eiro Nareth's](https://www.youtube.com/watch?v=SaZiUBfXKEs) arrangement of [Time](https://youtu.be/DRVajO5q-xo) (from the Inception movie).
 
 Other sources:
 
