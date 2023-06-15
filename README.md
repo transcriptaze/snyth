@@ -9,7 +9,7 @@ For the only mildly curious, there are a couple of basic YouTube demo videos:
 - [Nuclear](https://youtu.be/2jzFQkDbAyU)
 - [Greensleeves](https://youtu.be/AzKBIvqoMz4)
 - [Rondo alla Turca](https://www.youtube.com/watch?v=I3ut6H6-gvE)
-- [Time (Inception)](https://youtu.be/3vRPjJlIbgA)
+- [Time (Inception)](https://youtu.be/DRVajO5q-xo)
 
 _snyth_ is an experimental additive synthesizer that uses the _Jacobi ellipse_ as the generator function. By
 adjusting the eccentricity, rotation and horizontal shift of an ellipse a single oscillator can morph smoothly
