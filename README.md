@@ -89,7 +89,7 @@ release quite soon.
 
 ## Getting Started
 
-The [web app](https://snyth.pages.dev)) is the easiest but if you want to run it locally the
+The [web app](https://snyth.pages.dev) is the easiest but if you want to run it locally the
 [Releases](https://github.com/transcriptaze/snyth/releases) section has executables for:
 
 - Linux
