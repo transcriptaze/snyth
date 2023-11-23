@@ -2,8 +2,8 @@
 
 1. ~~Javascript/WebAudio~~
 2. Supercollider
-3. Rust/WASM
-4. GPU
+3. WASM
+4. ~~GPU~~
 5. Faust
 6. PureData
    - [ ] Basic _sn_ patch
@@ -19,4 +19,6 @@
 10. Eurorack
 11. Analog synth
 12. [VCV Rack module](https://vcvrack.com)
+13. https://store.steampowered.com/app/1727420/Midinous/
+14. https://www.3eality.com/productions/reality-adlib-tracker
 
