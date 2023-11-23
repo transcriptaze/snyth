@@ -165,6 +165,8 @@ This is an umbrella repository and all the actual code lives in submodules:
   there isn't much beyond a basic working demo.
 - [snyth-supercollider](https://github.com/transcriptaze/snyth-supercollider) is a _Supercollider_ UGen for the 
   basic _sn_ function and a couple of demo scripts.
+- [sn-vcv](https://github.com/transcriptaze/sn-vcv) is a set of _VCV Rack_ modules that implement a VCO and LFO
+  for the _sn_ function.
 
 Please see the READMEs for the respective modules for submitting bug reports, issues, feature requests, etc.
 
