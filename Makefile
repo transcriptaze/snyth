@@ -30,3 +30,5 @@ release:
 	tar --directory=dist --exclude=".DS_Store" -cvzf dist/$(DIST).tar.gz $(DIST)
 	cd dist; zip --recurse-paths $(DIST).zip $(DIST)
 
+debug:
+	python3 -m http.server 9000 --directory ./dist/development/cloudflare
